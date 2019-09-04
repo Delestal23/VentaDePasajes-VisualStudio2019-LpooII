@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesBase", "..\..\LPOOII_GRUPO010\ClasesBase\ClasesBase.csproj", "{AC09655E-E2B1-4077-8AE0-8B22769FA5DC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Vistas", "..\..\LPOOII_GRUPO010\Vistas\Vistas.vbproj", "{974C63DB-71E7-4C99-B524-C463BF1A034B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC09655E-E2B1-4077-8AE0-8B22769FA5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC09655E-E2B1-4077-8AE0-8B22769FA5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC09655E-E2B1-4077-8AE0-8B22769FA5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC09655E-E2B1-4077-8AE0-8B22769FA5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974C63DB-71E7-4C99-B524-C463BF1A034B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974C63DB-71E7-4C99-B524-C463BF1A034B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974C63DB-71E7-4C99-B524-C463BF1A034B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974C63DB-71E7-4C99-B524-C463BF1A034B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
